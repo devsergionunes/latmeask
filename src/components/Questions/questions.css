@@ -1,0 +1,59 @@
+.question {
+  background: var(--white-details);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.04);
+  padding: 2.4rem;
+  border: 0.1rem solid transparent;
+}
+.question + .question {
+  margin-top: 0.8rem;
+}
+.question.highlight {
+  background: var(--background);
+  border: 0.1rem solid var(--purple);
+}
+.question.answerd {
+  background: var(--grey-light);
+}
+.question p {
+  color: var(--black);
+}
+.question footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+.question .user-info {
+  display: flex;
+  align-items: center;
+  color: var(--grey-dark);
+  font-size: 1.2rem;
+}
+.question .user-info img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  margin-right: 0.65rem;
+}
+.question footer button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  gap: 0.5rem;
+  transition: color 0.3s;
+}
+.question footer .like-button {
+  display: flex;
+  align-items: flex-end;
+  color: var(--grey-dark);
+}
+.question footer .like-button.liked {
+  color: var(--purple);
+}
+.question footer .like-button.liked svg path {
+  stroke: var(--purple);
+}
+.question footer .user-buttons button:nth-child(2) {
+  margin: 0 0.8rem;
+}

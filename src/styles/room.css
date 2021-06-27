@@ -1,0 +1,95 @@
+#page-room header {
+  padding: 2rem;
+  border-bottom: 0.1rem solid #e2e2e2;
+}
+header > div {
+  max-width: 112rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  max-height: 4rem;
+}
+header .header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header .header-buttons .button.outlined {
+  height: 4rem;
+  background: #fff;
+  border: 0.1rem solid var(--purple);
+  color: var(--purple);
+}
+.content {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.room-title {
+  margin: 3rem 0 2rem;
+  display: flex;
+  align-items: center;
+}
+.room-title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  color: var(--black);
+}
+.room-title span {
+  margin-left: 1.4rem;
+  background: var(--pink-dark);
+  border-radius: 99999rem;
+  padding: 0.6rem 1.4rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--white-details);
+}
+form textarea {
+  min-width: 100%;
+  min-height: 13rem;
+  border: 0;
+  padding: 1.6rem;
+  border-radius: 0.6rem;
+  background: #fff;
+  box-shadow: 0 0.02rem 1.2rem rgba(0, 0, 0, 0.04);
+  resize: vertical;
+}
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.form-footer div {
+  color: var(--grey-dark);
+}
+.form-footer span {
+  color: var(--purple);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.form-footer .user-info {
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.form-footer .user-info img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+}
+.questions-list {
+  margin-top: 3rem;
+}
