@@ -118,3 +118,12 @@
 .main-content p > a {
   color: var(--pink-dark);
 }
+
+@media (max-width: 750px) {
+  #page-auth aside {
+    display: none;
+  }
+  #page-auth main {
+    padding: 0;
+  }
+}

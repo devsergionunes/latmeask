@@ -4,6 +4,7 @@
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.04);
   padding: 2.4rem;
   border: 0.1rem solid transparent;
+  word-wrap: break-word;
 }
 .question + .question {
   margin-top: 0.8rem;
@@ -43,10 +44,18 @@
   gap: 0.5rem;
   transition: color 0.3s;
 }
+.question footer button img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 .question footer .like-button {
   display: flex;
   align-items: flex-end;
   color: var(--grey-dark);
+}
+.question footer .like-button svg {
+  width: 2.5em;
+  height: 2.5rem;
 }
 .question footer .like-button.liked {
   color: var(--purple);
@@ -57,3 +66,35 @@
 .question footer .user-buttons button:nth-child(2) {
   margin: 0 0.8rem;
 }
+
+@media (max-width: 749px) {
+  .question {
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .question p {
+    font-size: 1.8rem;
+  }
+  .question .user-info {
+    font-size: 1.5rem;
+  }
+  .question .user-info img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.7rem;
+  }
+}
+/*
+@media (max-width: 399px) {
+  .question p {
+    font-size: 2.5rem;
+  }
+  .question footer button img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .question footer .like-button svg {
+    width: 3.5em;
+    height: 3.5rem;
+  }
+}*/

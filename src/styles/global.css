@@ -35,3 +35,20 @@ textarea {
   outline: none;
   text-decoration: none;
 }
+
+@media (min-width: 750px) and (max-width: 999px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 749px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 45%;
+  }
+}
