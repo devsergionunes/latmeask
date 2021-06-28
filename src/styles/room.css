@@ -93,3 +93,27 @@ form textarea {
 .questions-list {
   margin-top: 3rem;
 }
+
+@media (max-width: 749px) {
+  .content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  header img {
+    max-height: 5.5rem;
+  }
+  .room-title {
+    margin: 3.5rem 0 2.5rem;
+  }
+  .room-title h1 {
+    font-size: 3rem;
+  }
+  .form-footer {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .form-footer .user-info img {
+    width: 5rem;
+    height: 5rem;
+  }
+}

@@ -24,3 +24,9 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
+
+@media (max-width: 749px) {
+  .room-code {
+    display: none;
+  }
+}

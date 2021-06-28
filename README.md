@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Letmeask
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assests/github-gifs/letmeask.gif"></img>
 
-## Available Scripts
+<hr>
+<div align='center'>
+  <img src="./src/assests/github-gifs/letmeask-mobile.gif"></img>
+  <p> Versao mobile</p>
+</div>
 
-In the project directory, you can run:
+# Informaçoes:
 
-### `npm start`
+## Aplicaçao letmeask:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Aplicaçao tem finalidade de perguntas e resposta em tempo real, isso é um usuario autenticado pode criar uma sala, enviar o codigo da sala para outros usuarios entrarem na mesma sala que ele e fazer perguntas.
+- O publico alvo dessa aplicaçao é para criadores de conteudos digitais, que quando estiverem fazendo uma live, responde seus telespectadores de uma forma mais organizada como a aplicaçao ofereçe.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Regras de autorizaçao:
 
-### `npm test`
+- Usuarios autenticados:
+  - Pode cria sala.
+  - Envia perguntas.
+  - Marca como gostei.
+  - Usuario criador da sala pode da destaque na pergunta, marca como respondida, excui pergunta e encerra a sala.
+- Usuario nao autenticado:
+  - Pode entra na sala com o codigo.
+  - Ler e acompanha sem nenhuma interaçao direta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## React:
 
-### `npm run build`
+- Utilizando a metodologia de contextos para compartilhar informaçoes em diferentes componentes.
+- Hooks customizados para reaproveitar logica em diferentes paginas.
+- Navegaçao usando api do react-router-dom.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Integraçao com Firebase:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Autenticaçao de usuarios, usando conta do google.
+- Usando regras do firebase para autorizaçoes de usuarios.
+- Usando banco de dados Realtime database, para guarda dados e perguntas dos usuarios e requisita quando necessario.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <hr>
 
-### `npm run eject`
+# Tecnologias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Html5
+- Css3
+- JavaScript
+- React
+  - react-router-dom
+- Firebase
+  - Authentication
+  - Realtime Database
+  <hr>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Style:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<pre>
+  --background: #e5e5e5;
+  --white-details: #fefefe;
+  --white: #f8f8f8;
+  --black: #29292e;
+  --shadow: #050206;
+  --denger: #e73f5d;
+  --purple: #835afd;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  --pink-dark: #e559f9;
+  --pink-light: #d67ee2;
 
-## Learn More
+  --grey-dark: #737380;
+  --grey-medium: #a8a8b3;
+  --grey-light: #dbdcdd;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  font-size: 62.5%;
+</pre>
+<hr>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Considerações:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<pre>
+    Aplicaçao desenvolvida junto a NLW da <a href='https://rocketseat.com.br/'>Rocketseat</a>.
+</pre>
